@@ -34,21 +34,6 @@ class Point {
 	double Point::gety(int ord){
 		return ord;
 	}
-	
-	
-/*int main(){
-	Point point1; //declaring the point of same class type
-	
-	//point1 specs
-	point1.setx(2);
-	point1.sety(3);
-	
-	
-	cout<< "The coordinates of the given point is "<<endl;
-	point1.print();
-	return 0;
-} 
-*/
 
 class Rectangle {
 	private: 
@@ -101,6 +86,17 @@ class Rectangle {
 	}
 		
 int main(){
+	
+	Point point1; //declaring the point of same class type
+	
+	//point1 specs
+	point1.setx(2);
+	point1.sety(3);
+	
+	
+	cout<< "The coordinates of the given point is "<<endl;
+	point1.print();
+	
 	
 	Point p1;
 	Point p3;
